@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - SDM Shafqat Digital Marketing</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <!-- Login Section -->
+  <section class="login-section">
+    <div class="login-container">
+      <div class="login-box">
+        <h2>Welcome Back</h2>
+        <p>Login to your account</p>
+
+        <form action="login-action.php" method="POST">
+          <!-- Email Field -->
+          <div class="input-group">
+            <input type="email" id="email" name="email" required placeholder="Email Address" class="input-field">
+            <i class="fas fa-envelope input-icon"></i>
+          </div>
+
+          <!-- Password Field -->
+          <div class="input-group">
+            <input type="password" id="password" name="password" required placeholder="Password" class="input-field">
+            <i class="fas fa-lock input-icon"></i>
+          </div>
+
+          <!-- Remember Me Checkbox -->
+          <div class="remember-me">
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Remember Me</label>
+          </div>
+
+          <!-- Submit Button -->
+          <div class="login-btn-container">
+            <button type="submit" class="login-btn">Login</button>
+          </div>
+
+          <!-- Forgot Password & Signup Links -->
+          <div class="form-links">
+            <a href="forgit_password.html">Forgot Password?</a>
+            <a href="create_account.html">Create an Account</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+ <style>
+    /* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fb;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2, p {
+  text-align: center;
+  color: #333;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Login Section */
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 40px;
+  max-width: 400px;
+  width: 100%;
+  margin: 20px;
+}
+
+.login-box {
+  text-align: center;
+}
+
+.login-box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-box p {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 14px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: 0.3s ease-in-out;
+}
+
+.input-field:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 18px;
+}
+
+/* Remember Me Section */
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.remember-me input {
+  margin-right: 10px;
+}
+
+.remember-me label {
+  font-size: 14px;
+}
+
+/* Submit Button */
+.login-btn-container {
+  margin-top: 20px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.login-btn:hover {
+  background-color: #2980b9;
+}
+
+.login-btn:active {
+  background-color: #1c6e8c;
+}
+
+/* Form Links */
+.form-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-links a {
+  font-size: 14px;
+}
+
+ </style>
+</body>
+</html>

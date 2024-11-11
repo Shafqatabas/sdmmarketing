@@ -1,0 +1,457 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+  }
+  
+  /* Header Section */
+  .header-section {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 25px; /* Button-like padding */
+    border-radius: 25px;
+    background-color: #3498db; /* Button background color */
+    border: 2px solid #3498db; /* Button border color */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.navbar ul li a:hover {
+    color: #fff; /* Text color stays white */
+    background-color: #1bbd3e; /* Background color on hover */
+    border: 2px solid #3498db; /* Border color changes on hover */
+}
+
+.navbar ul li a:active {
+    background-color: #2980b9; /* Darker blue when clicked */
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-bar {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+}
+
+.search-btn {
+    background-color: #3498db;
+    border: none;
+    padding: 10px;
+    margin-left: -40px; /* To place the button inside the search bar */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-btn i {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.search-btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+.highlight {
+    background-color: yellow; /* Highlight color */
+    color: black; /* Text color inside the highlight */
+    font-weight: bold;
+}
+
+
+  .business-growth {
+    padding: 40px 10%;
+    background-color: #ecf0f1;
+}
+
+.growth-description h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.growth-description p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: center;
+    font-weight: 300;
+}
+
+.growth-description h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.growth-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.growth-item {
+    width: 48%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.growth-item h4 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.growth-item p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+ /* Slider Section */
+.slider {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider .slider-container {
+    display: flex;
+    transition: transform 1s ease;
+  }
+  
+  .slider .slider-container img {
+    width: 50%; /* Show two images at once */
+    height: auto;
+    object-fit: cover;
+  }
+  .services {
+    padding: 40px 10%;
+    background-color: #f4f4f4;
+  }
+  
+  .services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .service {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  
+  .service img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .service h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .service p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .order-button {
+    background-color: #3d155f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .order-button:hover {
+    background-color: #650c8c;
+  }
+
+
+  .header-section p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.services-container-tex {
+    padding: 40px 10%;
+    background-color: #ecf0f1;
+}
+
+.services-description-tex h2 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.services-description-tex p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: center;
+    font-weight: 300;
+}
+
+.services-description-tex h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.services-row-tex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.services-column-tex {
+    width: 48%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.services-column-tex ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.services-column-tex ul li {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.services-column-tex ul li strong {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+
+  
+  /* Services Section */
+  .services {
+    padding: 30px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2em;
+    color: #3D155F;
+  }
+  
+  .service-item {
+    margin: 20px;
+  }
+  
+  .service-item h3 {
+    font-size: 1.8em;
+    color: #3D155F;
+  }
+  
+  .service-item p {
+    font-size: 1.2em;
+  }
+  
+  /* About Section */
+  .about {
+    padding: 30px;
+    background-color: #B08ED3;
+    color: white;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.5em;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+
+  /* About Us Section */
+.about-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-bottom: 40px;
+  }
+  
+  .about-content {
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .team-section {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .team-section h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .team-section p {
+    font-size: 16px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Specialists Section */
+  .specialist-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .specialist, .service {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .specialist, .service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .specialist img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .specialist h4 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  
+  .specialist p {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  /* Icons */
+  .specialist i {
+    font-size: 24px;
+    color: #ffa500;
+    margin-right: 10px;
+  }
+  
+  /* Mobile Responsiveness */
+  @media screen and (max-width: 768px) {
+    .specialist-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .specialist-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .about-content p,
+    .team-section p {
+      font-size: 16px;
+    }
+  }
+  
+  
+  /* Footer Section */
+  footer {
+    background-color: #3D155F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  

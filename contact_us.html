@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - SDM Shafqat Digital Marketing</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Social Media Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="header-section">
+    <div class="header-content">
+        <div class="logo-section">
+            <img class="logo" src="WhatsApp_Image_2024-11-10_at_13.27.33_9f41f7f7-removebg-preview.png" alt="SDM Shafqat Logo" style="height: 80px; width: 100px; margin-top: 15px;">
+        </div>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="contact_us.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+  <!-- Contact Us Section -->
+  <section class="contact-section">
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or inquiries, feel free to reach out to us. We're here to assist you!</p>
+    </div>
+
+    <div class="contact-container">
+      <!-- Left Column: Message Form -->
+      <div class="contact-form-container">
+        <form action="#" method="post" class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Write your message here..." rows="6" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+
+      <!-- Right Column: Contact Details -->
+      <div class="contact-details-container">
+        <h3>Our Contact Details</h3>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <p><strong>Email:</strong> <a href="mailto:khralali05@gmail.com">khralali05@gmail.com</a></p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone-alt"></i>
+          <p><strong>Phone:</strong> <a href="tel:+923460443220">+92 346 0443220</a></p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p><strong>Address:</strong> Chak No 67/4R, Sahiwal, Punjab, Pakistan</p>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-whatsapp"></i>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/+923460443220" target="_blank">+92 346 0443220</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Full Width Google Map Embed -->
+    <div class="map-container">
+      <h3>Our Location</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d54846.76314643256!2d73.1615184!3d30.776749!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922bb9570e2e711%3A0x9a7df79e3d09f5c0!2sSDM%20Shafqat%20digital%20markting!5e0!3m2!1sen!2s!4v1731264048004!5m2!1sen!2s" 
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+<!-- Footer Section -->
+<footer class="footer-section">
+    <div class="footer-content">
+      <p>&copy; 2024 SDM Shafqat Digital Marketing. All Rights Reserved.</p>
+      <div class="social-links">
+        <a href="https://web.facebook.com/ShafqatDigitalSolutions" target="_blank" class="social-icon">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/yourhandle" target="_blank" class="social-icon">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/digital_shafqat/" target="_blank" class="social-icon">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.youtube.com/c/yourchannel" target="_blank" class="social-icon">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- CSS Styles -->
+  <style>
+    .footer-section {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .footer-content p {
+      margin: 0;
+      font-size: 14px;
+    }
+  
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .social-icon {
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+  
+    .social-icon:hover {
+      transform: scale(1.2);
+    }
+  
+    .social-icon i {
+      vertical-align: middle;
+    }
+  </style>
+  
+  
+<style>
+    body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.header-section {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: #ff5e14;
+}
+
+.contact-section {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+  color: #343a40;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  color: #555;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.contact-form-container {
+  width: 48%;
+}
+
+.contact-details-container {
+  width: 48%;
+}
+
+.contact-details-container h3 {
+  color: #343a40;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #555;
+}
+
+.contact-item i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #ff5e14;
+}
+
+.contact-details-container a {
+  color: #ff5e14;
+  text-decoration: none;
+}
+
+.contact-details-container a:hover {
+  text-decoration: underline;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-group label {
+  font-size: 14px;
+  color: #333;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.contact-form .form-group textarea {
+  resize: vertical;
+}
+
+.contact-form .submit-btn {
+  background-color: #ff5e14;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-form .submit-btn:hover {
+  background-color: #e64c00;
+}
+
+.map-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.map-container iframe {
+  border-radius: 8px;
+  width: 100%; /* Ensures the map covers the full width */
+  height: 450px; /* Maintains a consistent height */
+}
+
+.footer-section {
+  background-color: #343a40;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-form-container,
+  .contact-details-container {
+    width: 100%;
+  }
+}
+
+</style>
+</body>
+</html>
